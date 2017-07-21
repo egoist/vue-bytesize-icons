@@ -24,7 +24,9 @@
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "babel-helper-vue-jsx-merge-props": "^2.0.2"
+  },
   "devDependencies": {
     "babel-plugin-preval": "^1.4.2",
     "babel-preset-vue-app": "^1.2.0",
