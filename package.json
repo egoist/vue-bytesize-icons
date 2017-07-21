@@ -1,6 +1,6 @@
 {
   "name": "vue-bytesize-icons",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Bytesize icons as Vue components",
   "repository": {
     "url": "egoist/vue-bytesize-icons",
