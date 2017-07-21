@@ -178,6 +178,7 @@ a:hover {
   padding: 10px;
   width: 25%;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .icon:hover {
