@@ -70,7 +70,7 @@ export default {
   },
   computed: {
     filteredIcons() {
-      const keyword = this.keyword.trim()
+      const keyword = this.keyword.trim().toLowerCase()
       if (!keyword) return this.icons
 
       return this.icons.filter(name => {
