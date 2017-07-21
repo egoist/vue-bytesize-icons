@@ -10,7 +10,7 @@ Vue.use(Tippy, {
   animation: 'perspective',
   performance: true,
   arrow: true,
-  // trigger: 'click'
+  trigger: 'click'
 })
 
 new Vue({

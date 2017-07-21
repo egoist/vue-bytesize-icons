@@ -25,7 +25,7 @@
           v-tippy="{interactive: true}"
           :title="example"
           v-for="icon in filteredIcons"
-          @mouseenter="handleHover(icon)"
+          @click="handleClickIcon(icon)"
           :key="icon">
           <component :is="icon" class="icon-svg"></component>
           <span>{{ icon }}</span>
@@ -84,7 +84,7 @@ export default {
     }
   },
   methods: {
-    handleHover(icon) {
+    handleClickIcon(icon) {
       this.hoverIcon = icon
     }
   },
