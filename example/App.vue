@@ -120,6 +120,7 @@ a:hover {
 .container {
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .tippy-tooltip {
@@ -212,5 +213,11 @@ a:hover {
 .footer {
   margin: 40px 0;
   font-size: 1rem
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    width: 100%;
+  }
 }
 </style>
