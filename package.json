@@ -17,10 +17,8 @@
     "lint": "xo",
     "prepublish": "npm run build",
     "build": "node scripts/build && bili --format umd,es,umdCompress --module-name BytesizeIcons --exports named --js babel",
-    "gh": "gh-pages -d example/dist",
     "build:example": "poi build",
-    "example": "poi",
-    "deploy": "npm run build:example && npm run gh"
+    "example": "poi"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
@@ -68,7 +66,6 @@
   },
   "poi": {
     "entry": "example/index.js",
-    "dist": "example/dist",
-    "homepage": "/vue-bytesize-icons/"
+    "dist": "example/dist"
   }
 }
