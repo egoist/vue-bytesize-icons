@@ -10,7 +10,7 @@ yarn add vue-bytesize-icons
 
 ## Usage
 
-View the documentation and demo here: https://egoist.github.io/vue-bytesize-icons
+View the documentation and demo here: https://vue-bytesize-icons.egoist.sh
 
 ## Contributing
 
